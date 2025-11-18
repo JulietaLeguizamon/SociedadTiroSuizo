@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Prosto+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+/* animo fuente */
+/* font-family: "Arimo", sans-serif; */
+
+h1 {
+    font-family: "Arimo", sans-serif;
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+
+
+
+}
+
+
+h2 {
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+p {
+    font-style: italic;
+    color: black;
+
+
+}
+
+.iconos-footer {
+    width: 100px;
+    height: 100px;
+
+}
+
+.img-logo-footer {
+    width: 100%;
+    height: auto;
+}
+
+.img-basquet {
+    width: 100%;
+    height: auto;
+
+}
+
+.img-futsal {
+    width: 100%;
+    height: auto;
+}
+
+.img-tennis {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+
+}
+
+.img-clasico {
+    width: 800px;
+    height: 600px;
+    border-style: double;
+}
+
+.img-carnet {
+    width: 800px;
+    height: 300px;
+    border-style: groove;
+}
+
+.img-arco {
+
+    width: 1800px;
+    height: 450px;
+    border-style: outset;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+li {
+    list-style: none;
+}
+
+.grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    justify-content: space-around;
+    align-items: start;
+    align-content: center;
+
+}
+.grid-area{
+    background-color: cadetblue;
+    text-decoration: dashed;
+
+
+}
+.btn{
+    background-color: red;
+
+}
+.btn:hover{
+    color: blue;
+    background-color: aqua;
+
+
+}
+a:visited{
+    color: blue;
+
+}
+
+.footer-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    justify-content: space-between;
+
+
+}
+
+.p-footer{
+    color: black;
+    
+}
