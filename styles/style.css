@@ -40,7 +40,7 @@ p {
 .iconos-footer {
     width: 100px;
     height: 100px;
-    
+
 }
 
 .img-logo-footer {
@@ -108,28 +108,32 @@ li {
     align-content: center;
 
 }
-.grid-area{
+
+.grid-area {
     background-color: cadetblue;
     text-decoration: dashed;
 
 
 }
-.btn{
+
+.btn {
     background-color: red;
 
 }
-.btn:hover{
+
+.btn:hover {
     color: blue;
     background-color: aqua;
 
 
 }
-a:visited{
+
+a:visited {
     color: blue;
 
 }
 
-.footer-container{
+.footer-container {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -137,22 +141,42 @@ a:visited{
     justify-content: space-between;
 }
 
-.p-footer{
+.p-footer {
     color: black;
 }
 
+@media (max-width: 450px) {
+   
+    .footer-container p {
+        font-size: 15px;
+    }
 
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 100px 100px;
+        justify-content:end;
+        
+    }
+    .img-carnet {
 
+        width: 100px;
+        height: 100px;
 
+    }
+}
 
+@media (max-width: 1000px){
 
+    .footer-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px 100px;
+        justify-content:end;
+        
+    }
 
+    .img-carnet{
+        width: 400px;
+        height: auto;
 
-
-
-
-
-
-
-
-
+    }
+}
