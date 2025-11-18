@@ -34,12 +34,13 @@ p {
     color: black;
 
 
+
 }
 
 .iconos-footer {
     width: 100px;
     height: 100px;
-
+    
 }
 
 .img-logo-footer {
@@ -129,16 +130,29 @@ a:visited{
 }
 
 .footer-container{
-    height: 100vh;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px;
     justify-content: space-between;
-
-
 }
 
 .p-footer{
     color: black;
-    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
